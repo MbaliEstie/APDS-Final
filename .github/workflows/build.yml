@@ -25,3 +25,4 @@ jobs:
             -Dsonar.organization=mbaliestie
             -Dsonar.projectKey=MbaliEstie_APDS-Final
             -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.exclusions=**/*.c,**/*.h,**/*.cpp,**/*.hpp
